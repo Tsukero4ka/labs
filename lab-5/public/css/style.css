@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.block {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: max-content;
+}
+
+input {
+    outline: none;
+    height: 30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+}
